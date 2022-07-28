@@ -1,17 +1,15 @@
 import React from "react";
-import "../Navbar/navbar.css";
+import logo from "../Logo/logo.png";
+import "./style.css";
 
-function Navbar() {
-  const pokeLogo =
-    "https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png";
-
+const Navbar = () => {
   return (
     <nav className="nav-main">
       <div>
-        <img alt="pokemon-logo" src={pokeLogo} className="nav-img" />
+        <img alt="pokemon-logo" src={logo} className="nav-img" />
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;
