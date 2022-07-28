@@ -8,7 +8,6 @@ const Searchbar = () => {
 
   const handleSearch = (e) => {
     setSearch(e.target.value);
-    console.log(search);
   };
 
   const onSearch = async (pokemon) => {
