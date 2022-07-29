@@ -1,10 +1,11 @@
-.nav-main{
+nav {
   height: 100px;
   display: flex;
-  justify-content:center;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-.nav-img{
-  width: 250px;
+.navbar-img {
+  width: 160px;
 }

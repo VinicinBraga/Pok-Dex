@@ -3,11 +3,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px; 
+  padding: 10px;
 }
 
-.pokedex-grid{
+.pokedex-grid {
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
